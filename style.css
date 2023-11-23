@@ -1,0 +1,39 @@
+#canvas {
+    border: 1px solid black;
+}
+
+#player {
+    display: none;
+}
+
+#enemy {
+    display: none;
+}
+
+#friend {
+    display: none;
+}
+
+#hud-zombie-head {
+    display: none;
+}
+
+#letter-t {
+    display: none;
+}
+
+#hp-item {
+    display: none;
+}
+
+#speed-boost-item {
+    display: none;
+}
+
+#attack-boost-item {
+    display: none;
+}
+
+#map-tile {
+    display: none;
+}
