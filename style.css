@@ -1,3 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Pixelify+Sans&family=Poppins:wght@300&display=swap');
+
+body {
+    font-family: 'Pixelify Sans';
+    cursor: url('cursor.png'), auto;
+}
+
+button {
+    cursor: url('cursor.png'), auto;
+}
+
 #canvas {
     border: 1px solid black;
 }
@@ -36,4 +47,28 @@
 
 #map-tile {
     display: none;
+}
+
+#hud-items {
+    display: none;
+}
+
+#item-arrow {
+    display: none;
+}
+
+#chest-opened {
+    display: none;
+}
+
+#chest-closed {
+    display: none;
+}
+
+.draggable-mirror {
+    z-index: 9;
+}
+
+.draggable-source--is-dragging {
+    visibility: hidden;
 }
